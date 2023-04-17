@@ -1,0 +1,52 @@
+/*
+ * Copyright (c) Zhang Chenge 2023
+ */
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+    font-weight: 800;
+    color: #646cff;
+    text-decoration: inherit;
+}
+
+section {
+    border: 1px solid #c5c5c5;
+    border-radius: 8px;
+
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+
+    display: block;
+}
+
+body {
+    display: flex;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 1rem;
+}
+
+p {
+    line-height: 1.5 !important;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}

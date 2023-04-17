@@ -1,0 +1,23 @@
+div.pinyin-container {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+}
+
+.pinyin {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+    font-weight: 800;
+    text-align: center;
+}
+
+.no-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
