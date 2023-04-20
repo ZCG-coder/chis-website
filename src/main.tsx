@@ -3,7 +3,8 @@ import ReactDOM from "react-dom/client";
 import "./styles/index.css";
 import {TTC} from "./ttc";
 import {Daojiao} from "./daojiao";
-import {Pinyin} from "./pinyin";
+import { Pinyin } from "./pinyin";
+import {Video} from "./video";
 
 const storedTheme = localStorage.getItem("theme");
 
@@ -23,7 +24,7 @@ function setTheme(theme: string): void {
     }
 }
 
-setInterval(() => {
+setInterval(function () {
     setTheme(getPreferredTheme());
 }, 10);
 
@@ -44,6 +45,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
             <div className={"btns"}>
                 <TTC/>
                 <Daojiao/>
+                <Video/>
             </div>
         </section>
     </React.StrictMode>,
