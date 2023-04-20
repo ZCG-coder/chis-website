@@ -24,8 +24,7 @@ class DaojiaoDialog extends React.Component<any, any> {
                                     期的宗教改革，及元、明時期的宗派融合，逐漸演變成現在的道教。
                                 </p>
                                 <p>道教和道家學說指兩樣不同事物，但是經常被混為一談。道教是在道家思想的基礎上發展而成的，具體解釋見<a
-                                    href={"https://kknews.cc/zh-hk/culture/ev5a3r.html"} target={"_blank"}
-                                    className={"fa fa-external-link"}>這篇文章</a>。</p>
+                                    href={"https://kknews.cc/zh-hk/culture/ev5a3r.html"} target={"_blank"}>這篇文章</a>。</p>
                                 <blockquote cite={"https://kknews.cc/zh-hk/culture/ev5a3r.html"}>
                                     然而，如果將道家理解為由老子、莊子開創，並在魏晉被重新發明的哲學思想流派，將道教理解為於兩漢逐漸形成，後又有若干發展分化的宗教，那麼
                                     ，雖然道教在理論上汲取了道家思想的大量因素，甚至奉老子為教主，但是二者還是不能混為一談，也不能說道教理論就是道家思想。

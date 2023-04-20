@@ -34,7 +34,7 @@ class VideoDialog extends React.Component<any, any> {
 export class Video extends React.Component<any, any> {
     render(): React.ReactNode {
         return <>
-            <button type={"button"} className={"btn btn-primary"} data-bs-toggle={"modal"} data-bs-target={"#video-desc"}>
+            <button type={"button"} className={"btn"} data-bs-toggle={"modal"} data-bs-target={"#video-desc"}>
                 <img src={video} alt={"video"} />
                 <p>推薦影片</p>
             </button>

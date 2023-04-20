@@ -1,7 +1,8 @@
 import React from "react";
 import tao_te_ching from "./assets/tao_te_ching.jpg";
 import "./styles/btn.css";
-import {Pinyin} from "./pinyin";
+import { Pinyin } from "./pinyin";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 
 class TTCDialog extends React.Component<any, any> {
@@ -18,8 +19,8 @@ class TTCDialog extends React.Component<any, any> {
                             <section>
                                 <h4>簡介</h4>
                                 <p>乃道教奉行的典籍，相傳為春秋末期思想家老子所著。在流傳期間產生多個版本，包括流行最廣的<a
-                                    href="https://ctext.org/dao-de-jing/zh" target="_blank"
-                                    className="fa fa-external-link">王<Pinyin pinyin={"wen1"} text={"弼"}/>本</a>。
+                                href="https://ctext.org/dao-de-jing/zh" target="_blank">
+                                王<Pinyin pinyin={"wen1"} text={"弼"} />本</a>。
                                 </p>
                                 <p>以「道」與「德」為綱，論述修身、治國、用兵、養生之理，而多以政治為旨歸，對傳統思想、科學、政治、文學、藝術等領域產生了深刻影響。</p>
                             </section>

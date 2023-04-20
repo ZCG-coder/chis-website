@@ -48,5 +48,13 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
                 <Video/>
             </div>
         </section>
+
+        <footer>
+            <section>
+                <h4>關於本網站</h4>
+                <p>本網站使用<a href={"https://reactjs.org/"} target={"_blank"}>React</a>、<a href={"https://getbootstrap.com/"} target={"_blank"}>Bootstrap</a>、<a href={"https://www.typescriptlang.org/"} target={"_blank"}>TypeScript</a>製成。</p>
+                <p>本網站的原始碼在<a href={"https://github.com/ZCG-coder/chis-website"} target={"_blank"}>GitHub</a>上。</p>
+            </section>
+        </footer>
     </React.StrictMode>,
 );
